@@ -1,0 +1,37 @@
+[
+    {
+        "sfc_id": 1,
+        "source_node": "5",
+        "destination_node": "11",
+        "vnf_seq": ["VNF3", "VNF1", "VNF7"], 
+        "bandwidth": 35
+    },
+    {
+        "sfc_id": 2,
+        "source_node": "3",    
+        "destination_node": "24",
+        "vnf_seq": ["VNF4", "VNF9", "VNF2"],
+        "bandwidth": 8
+    },
+    {
+        "sfc_id": 3,
+        "source_node": "5",   
+        "destination_node": "25",
+        "vnf_seq": ["VNF6", "VNF10", "VNF5", "VNF8"],
+        "bandwidth": 15
+    },
+    {
+        "sfc_id": 4,
+        "source_node": "2",      
+        "destination_node": "1",   
+        "vnf_seq": ["VNF1"],
+        "bandwidth": 22
+    },
+    {
+        "sfc_id": 5,
+        "source_node": "7",       
+        "destination_node": "4",    
+        "vnf_seq": ["VNF2", "VNF5"],
+        "bandwidth": 10
+    }
+]
